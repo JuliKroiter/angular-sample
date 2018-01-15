@@ -15,7 +15,7 @@ const httpOptions = {
 @Injectable()
 export class HeroService {
 
-  private heroesUrl = 'api/heroes';  // URL to web api
+  private heroesUrl = '/api/v1/heroes';  // URL to web api
 
   constructor(private http: HttpClient,
               private messageService: MessageService
